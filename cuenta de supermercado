@@ -1,0 +1,19 @@
+// cuenta en le supermercado.cpp : Defines the entry point for the console application.
+// cuenta de supermercado
+
+#include "stdafx.h"
+#include "lostream"
+#include "conio.h"
+
+using namespace atd;
+void main();
+
+{ fload {precio } cant1,cant2,cant3;
+
+cout << "ingresar precio1";
+cin  << precio1;
+s=precio*cantidad1+precio2*cantidad2+precio3*cantidad3;
+count<<!"sin totl es:";<<s:
+getch()
+
+}
