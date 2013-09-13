@@ -1,0 +1,22 @@
+// interes capital.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+void main()
+{
+float k,i,I;
+int n;
+cout<<"ingrese I";
+cin>>I;
+cout<<"ingrese i"; 
+cin>>i;
+cin>>n;
+k=I/(i*n);
+cout<<k;
+
+getch();
+}
