@@ -1,0 +1,27 @@
+// promedio con funcion mientras.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main ()
+{
+	float n,dato, promedio, suma, contador;
+	cout<<"ingrese cantidad de numeros:";
+	cin>>n;
+	suma=0;
+	contador=0;
+	while (contador<n)
+	{
+		cout<< "ingrese datos:";
+		cin>> dato;
+		suma=suma+dato;
+		contador=contador+1;
+	}
+	promedio=(suma/n);
+	getch();
+	return 0;
+}
